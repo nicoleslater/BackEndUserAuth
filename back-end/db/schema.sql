@@ -1,5 +1,5 @@
 DROP DATABASE IF EXISTS backend_dev;
-DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS Users;
 
 CREATE DATABASE backend_dev;
 

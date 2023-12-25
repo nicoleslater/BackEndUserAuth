@@ -1,6 +1,7 @@
 const express = require("express");
+const bcrypt = require("bcryptjs");
 
-const {} = require("../queries/users.js");
+const { getOneUser, getOneUserByEmail, createUser } = require("../queries/users.js");
 
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 
